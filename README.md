@@ -68,7 +68,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or inquiries, feel free to reach out to me:
 
-- **Email:** [your.email@example.com](mailto:Abdulrahman.d1ab@outlook.com)
+- **Email:** [Abdulrahman.d1ab@outlook.com](mailto:Abdulrahman.d1ab@outlook.com)
 - **LinkedIn:** [Abdulrahman Diab](#insert-link-to-your-linkedin)
 
 Thank you for visiting my portfolio repository! 🚀
