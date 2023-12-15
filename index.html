@@ -4,52 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title> Portfolio </title>
+    <!-- Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS  -->
     <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Header Design -->
 
-    <header class="header">
-    <a href="#" class="logo">Abdulrahman.</a>
+       <header class="header">
+    <a href="#" class="logo">Abdulrahman</a>
+
+    <i class="bx bx-menu" id="menu-icon"> </i>
 
         <nav class="navbar">
 
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a hhref="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
 
         </nav>
     </header>
+    <!-- Home Section Design  -->
+
     <section class="home">
         <div class="home-content">
-            <h1>Hi, I'm Abdulrahman</h1>
-            <h3>Software Developer</h3>
+            <h3>Hi, I'm</h3>
+            <h1>Abdulrahman Diab</h1>
+            <h3>I'm a <span>Frontend Developer</span></h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                . Dignissimos sapiente quis reiciendis explicabo vel non, 
-                suscipit sed, autem laborum consequatur eius quisquam quasi 
-                magnam provident odit dicta velit dolor nemo!
+                Words shape worlds ✍️✨ <br>
+                🚀 Explorer of passions  🌍 Global citizen <br>
+                📚 Lifelong learner  ✨ Spreading positivity <br>
+                 🎨 Creative soul  ☕ Coffee enthusiast <br> 
+                 🎵 Music vibes  💡 Innovator at heart <br> 
+                 🤔 Questioning the status quo  🌈 Embracing diversity <br>
+                  📸 Capturing moments  🚴‍♂️ Adventurous spirit <br> 
+                  <br>
+                 #LifeIsAnAdventure
             </p>
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+
+            </div>
             <div class="btn-box">
                 <a href="#">Hire Me</a>
-                <a href="#">Let's Talk</a>
+                <a href="#">Spread Joy ☕️</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="assests/about.jpg" alt="">
             </div>
             
-            
-        </div>
-        <div class="home-sci">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
-        </div>
+
 
     </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assests/about.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        
+        <div class="about-content">
+            <h2 class="heading">Get to Know <span>Me</span></h2>
+            <h3>Frontend Developer & Creative Enthusiast</h3>
+            <p>Welcome to my digital space! I'm Abdulrahman Diab, a passionate frontend developer with a love for turning ideas into captivating user experiences. My journey in the world of coding is a fusion of creativity and technical expertise.</p>
+            <p>🎨 I believe in the power of design to shape the digital landscape. Every line of code is a stroke on the canvas of the internet, creating seamless and visually stunning websites that leave a lasting impression.</p>
+            <p>🚀 As an explorer of passions, I embrace challenges and constantly seek innovative solutions. Lifelong learning is my mantra, and I'm on a quest to discover new technologies, design trends, and coding techniques.</p>
+            <p>🌍 A global citizen at heart, I'm dedicated to spreading positivity and fostering diversity in the tech community. I see each project as an adventure, an opportunity to create something meaningful and impactful.</p>
+            <p>Join me on this journey of innovation, creativity, and continuous growth. Let's code the future together!</p>
+            <a href="#" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- Services Section Design  -->
+   <!-- Services Section Design -->
+<section class="services" id="services">
+    <h2 class="heading">What I <span>Offer</span></h2>
+
+    <div class="services-container">
+        <div class="service">
+            <i class='bx bx-desktop'></i>
+            <h3>Web Development</h3>
+            <p>Crafting responsive and visually appealing websites using the latest technologies and best practices. Your digital presence matters, and I ensure it stands out.</p>
+        </div>
+
+        <div class="service">
+            <i class="bx bx-mobile"></i>
+            <h3>Mobile App Design</h3>
+            <p>Creating intuitive and user-friendly mobile app interfaces. From wireframes to the final product, I focus on delivering a seamless and engaging user experience.</p>
+        </div>
+
+        <div class="service">
+            <i class="bx bx-palette"></i>
+            <h3>UI/UX Design</h3>
+            <p>Designing visually stunning and user-centric interfaces. I pay attention to the details to ensure that every interaction is intuitive and aesthetically pleasing.</p>
+        </div>
+
+        <div class="service">
+            <i class="bx bx-support"></i>
+            <h3>Technical Support</h3>
+            <p>Providing reliable technical support to ensure your digital projects run smoothly. From troubleshooting to maintenance, your success is my priority.</p>
+        </div>
+    </div>
+</section>
+
+  
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
